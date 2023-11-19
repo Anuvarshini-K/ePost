@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.login-container, .home-container, .add-letter-container, .view-letters-container, .delete-letters-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-container form, .add-letter-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.home-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.home-container ul li {
+    margin-bottom: 10px;
+}
+
+.view-letters-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.view-letters-container th, .view-letters-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.view-letters-container th {
+    background-color: #f2f2f2;
+}
+
+.delete-letters-container label {
+    display: block;
+    margin-bottom: 10px;
+}
